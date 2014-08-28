@@ -11,7 +11,7 @@
 
 -behaviour(gen_server).
 
--include("gen_bus.hrl").
+-include("../include/gen_bus.hrl").
 
 %% API
 -export([start_link/0]).
